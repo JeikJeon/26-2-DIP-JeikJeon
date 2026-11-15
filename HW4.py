@@ -34,4 +34,4 @@ my_upload = st.sidebar.file_uploader(
 if my_upload is not None:
     process_image(my_upload)
 else:
-    st.info("왼쪽 Upload에서 사진을 업로드해 주세요.)
+    st.info("왼쪽 Upload에서 사진을 업로드해 주세요.")
